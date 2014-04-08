@@ -1,0 +1,21 @@
+text addedtext added
+text added
+test word
+<Directory /var/www/addApacheConf.pyserver>Order Deny, AllowAllowOverride allAllow from all</Directory>
+<Directory /var/www/addApacheConf.py/server>
+Order Deny, Allow
+AllowOverride all
+Allow from all
+</Directory>
+
+<Directory /var/www/goodtv/server>
+Order Deny, Allow
+AllowOverride all
+Allow from all
+</Directory>
+
+<Directory /var/www/goodtv/server>
+  Order Deny, Allow
+  AllowOverride all
+  Allow from all
+</Directory>
