@@ -1,0 +1,13 @@
+Deployment
+
+* Place the project directory on the target path.
+* Rename the project directory to fit the project name.
+* Change the http.con in /etc/apache2/init.d.
+* Set the .htacess and .htpasswd.
+* Restart the server.
+
+
+To do 
+
+* To build a web portal that conserves projects and names of projects.
+* When we build a project, project directory should be generate automatically.
