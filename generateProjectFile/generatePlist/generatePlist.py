@@ -12,7 +12,7 @@ title = sys.argv[3]
 
 output = "app.plist"
 
-tree = ET.ElementTree(file='test.plist')
+tree = ET.ElementTree(file='default.plist')
 
 root = tree.getroot()
 
