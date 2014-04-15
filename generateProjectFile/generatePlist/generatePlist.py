@@ -10,7 +10,7 @@ bundle_version = sys.argv[2]
 TITLE = '__TITLE__'
 title = sys.argv[3]
 
-output = sys.argv[4]
+output = "app.plist"
 
 tree = ET.ElementTree(file='test.plist')
 
