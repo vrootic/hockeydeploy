@@ -2,7 +2,7 @@
 import sys
 
 project_name = sys.argv[1]
-project_path = "/var/www/"
+target_project_path = "/var/www/"
 
 target_path = "/etc/apache2/http.conf"
 target_path = "./test.txt"

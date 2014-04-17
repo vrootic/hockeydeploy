@@ -2,7 +2,7 @@ Deployment
 
 * Place the project directory on the target path. <= Done. we can build project by hockeyDeploy.py. But need to change the project target_directory in hockeyDeploy.py
 * Rename the project directory to fit the project name.
-* Change the http.conf in /etc/apache2/init.d.
+* Change the http.conf in /etc/apache2/init.d. <= Done. This movement can be achieved by using addApacheConf.py, but need to change the target path
 * Set the .htacess and .htpasswd. <= Done. we can build project by the hockeyDeploy.py, and we can use addUser.py to add user account/password or change password for exist user
 * Restart the server.
 
