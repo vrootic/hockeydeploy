@@ -33,4 +33,26 @@ def build_project_directory():
         return 'Fail to generate project'
 
 if __name__ == '__main__':
-    build_project_directory()
+    r = build_project_directory()
+    if r == 'Fail to generate project':
+        sys.exit()
+
+    import addApacheConf
+    
+    print '.................Server directory build [OK]'
+    print 'Keep building iOS directory? (Y/N)'
+    r = raw_input()
+    if r == 'Y' or r == 'y':
+        import buildIpaDir
+        
+        print '.................iOS directory build [OK]'
+    
+    print 'Keep building Android directory? (Y/N)'
+    r = raw_input()
+    if r == 'Y' or r == 'y':
+        import buildApkDir
+        
+        print '.................Android directory build [OK]'
+    
+    
+

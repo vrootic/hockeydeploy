@@ -6,7 +6,7 @@ project_name = settings.PROJECT_NAME
 project_path = settings.PROJECT_PATH
 
 target_path = "/etc/apache2/httpd.conf"
-target_path = "./test.txt"
+target_path = "./target/test.txt"
 
 with open(target_path, "a+") as target_file:
     target_file.write("\n")

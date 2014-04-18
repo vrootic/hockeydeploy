@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "Auth"
-AuthUserFile /var/www/HockeyKit/server/stats/.htpasswd
-Require valid-user
