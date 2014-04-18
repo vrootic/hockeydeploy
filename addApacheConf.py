@@ -3,9 +3,9 @@ import sys
 import settings
 
 project_name = settings.PROJECT_NAME
-target_project_path = settings.PROJECT_PATH
+project_path = settings.PROJECT_PATH
 
-target_path = "/etc/apache2/http.conf"
+target_path = "/etc/apache2/httpd.conf"
 target_path = "./test.txt"
 
 with open(target_path, "a+") as target_file:

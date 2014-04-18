@@ -1,2 +1,2 @@
-PROJECT_NAME = ""
-PROJECT_PATH = "/var/www/" # The last character must be '/'
+PROJECT_NAME = "goodtv"
+PROJECT_PATH = "./target/" # The last character must be '/'

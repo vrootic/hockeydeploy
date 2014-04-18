@@ -19,7 +19,7 @@
 
 
 
- #Below is auto-generated.
+# Below is auto-generated.
 AuthType Basic
 AuthName "Project Auth"
 AuthUserFile ./target/goodtv/server/.htpasswd
