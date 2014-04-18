@@ -1,0 +1,24 @@
+Target User: Engineer
+
+* Requirement:
+
+1. 這份project裡面的script請確保使用在Linux-based的主機上
+
+2. 請確定主機上有裝Python2.7
+
+
+
+* Step of building project:
+
+1. 建立Hockey Project的步驟主要分為 
+	a)建立[PROJECT_NAME]資料夾
+	b)調整apache http.conf來調整server redirect的位置
+	c)在這個資料夾內的兩個平台的資料夾
+
+2. 調整好settings.py內兩個參數PROJECT_NAME和PROJECT_PATH
+
+3. 使用 `python hockeyDeploy.py` 指令建立(a)步驟所需的主資料夾
+
+4. 使用 `python addApacheConf.py` 指令來建立 /etc/apache2/http.conf 的server redirect的位置
+
+5. 使用 `python buildIpaDir.py [BUNDLE_ID]` or `python buildApkDir.py [BUNDLE_ID]` 建立兩個平台所需存放的ipa,apk版本

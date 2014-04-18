@@ -1,0 +1,48 @@
+Target User: Project Manager
+
+＊建立一份iOS版本
+
+1. 尋找工程師建立好的project_name資料夾，在資料夾內尋找到 [bundle_id].ios資料夾
+
+2. 依序會需要app的icon(大小為144x144), mobileprovision檔案, 和含有版本號的資料夾
+   含有版本號資料夾內有.plist檔案.ipa以及說明的.html檔案
+
+ex. 以下為一個最終的資料夾結構，bundle_id為tv.goodtv.news
+
+	[tv.goodtv.news.ios]
+		|-- goodtvios1.0
+		|   |-- app.html
+		|   |-- app.plist
+		|   `-- app.ipa
+		|-- app.png
+		`-- zoaks_team.mobileprovision
+
+3. .plist檔案可以由/generateProjectFile/generatePlist資料夾內的程式產生，或者直接改動default.plist檔案之後另存新檔成app.plist
+	在終端機中執行程式  `python generatePlist.py [bundle_id] [版本號] [APP名稱]`
+
+4. 若選擇直接改動的作法，注意只需要改動__BUNDLEID__, __BUNDLEVER__ 和__TITLE__的地方即可
+
+5. 最後包成一個資料夾，例如要上傳一個2.0版資料夾結構如下
+
+###################################
+	|-- goodtvios2.0
+		|   |-- app.html
+		|   |-- app.plist
+		|   `-- app.ipa
+###################################
+
+最後project資料夾內會如下所示
+
+	[tv.goodtv.news.ios]
+		|-- goodtvios1.0
+		|   |-- app.html
+		|   |-- app.plist
+		|   `-- app.ipa
+		|-- goodtvios2.0
+		|   |-- app.html
+		|   |-- app.plist
+		|   `-- app.ipa
+		|-- app.png
+		`-- zoaks_team.mobileprovision
+
+＊建立一份Android版本

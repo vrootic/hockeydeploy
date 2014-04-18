@@ -1,8 +1,9 @@
 #!/usr/bin/python
 import sys
+import settings
 
-project_name = sys.argv[1]
-target_project_path = "/var/www/"
+project_name = settings.PROJECT_NAME
+target_project_path = settings.PROJECT_PATH
 
 target_path = "/etc/apache2/http.conf"
 target_path = "./test.txt"
