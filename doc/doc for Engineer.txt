@@ -19,6 +19,3 @@ Target User: Engineer
 
 3. 使用 `python hockeyDeploy.py` 指令建立(a)步驟所需的主資料夾
 
-4. 使用 `python addApacheConf.py` 指令來建立 /etc/apache2/http.conf 的server redirect的位置
-
-5. 使用 `python buildIpaDir.py [BUNDLE_ID]` or `python buildApkDir.py [BUNDLE_ID]` 建立兩個平台所需存放的ipa,apk版本
