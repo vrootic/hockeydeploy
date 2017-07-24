@@ -6,7 +6,7 @@ Target User: Engineer
 
 ## Prerequisite:
 
-1. Script files in this project must be applied on Linus-based server.
+1. Script files in this project must be applied on Linux-based server.
 2. Python2.7
 
 ## Step of building project:
